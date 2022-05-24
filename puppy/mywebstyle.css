@@ -1,0 +1,34 @@
+
+body {
+    background-image: linear-gradient(to bottom , #ffd5d5, #ffffff);
+}
+
+ #div1 input{
+
+           transition: all 0.5s;
+
+       }
+
+#div1 input:hover{
+
+           transform: scale(1.2);
+
+       }
+#gallary img{
+  transition: all 0.5s;
+}
+
+#gallary img:hover{
+  transform: scale(1.1);
+}
+
+#remainTime{
+    margin-top: 30px;
+    font-size: 40px;
+}
+#remainTime span {
+    display: inline-block;
+    width: 100px;
+    height: 20px;
+    color: red;
+}
