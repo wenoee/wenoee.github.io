@@ -1,0 +1,1562 @@
+﻿<!DOCTYPE html>
+<html class="no-js" lang="">
+
+<head>
+    <!-- Meta Data -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>问卷侠丨一键帮帮</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="media/黄icon.png">
+    <link rel="stylesheet" href="dependencies/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="dependencies/icofont/icofont.min.css">
+    <link rel="stylesheet" href="dependencies/slick-carousel/css/slick.css">
+    <link rel="stylesheet" href="dependencies/slick-carousel/css/slick-theme.css">
+    <link rel="stylesheet" href="dependencies/magnific-popup/css/magnific-popup.css">
+    <link rel="stylesheet" href="dependencies/sal.js/sal.css">
+    <link rel="stylesheet" href="dependencies/mcustomscrollbar/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="dependencies/select2/css/select2.min.css">
+
+    <!-- Site Stylesheet -->
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="assets/css/bbs.css">
+
+    <!-- btn style -->
+    <style type="text/css">
+    .sb-btn {
+        background-color:#615dfa;
+        border: 5px;
+        color: white;
+        padding: 4px 20px;
+        text-align: center;
+        text-decoration: none;
+        border-radius:3px;
+        display: inline-block;
+        font-size: 16px;}
+      </style>
+
+
+    <!-- Google Web Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;0,800;0,900;1,400&display=swap" rel="stylesheet">
+</head>
+
+<body class="bg-link-water">
+    <!--[if lte IE 9]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+    <![endif]-->
+    <a href="#wrapper" data-type="section-switch" class="scrollup">
+        <i class="icofont-bubble-up"></i>
+    </a>
+    <!-- Preloader Start Here -->
+    <div id="preloader"></div>
+    <!-- Preloader End Here -->
+    <div id="wrapper" class="wrapper">
+        <!-- Top Header -->
+        <header class="fixed-header">
+            <div class="header-menu">
+                <div class="navbar">
+                    <div class="nav-item d-none d-sm-block">
+
+                            <a href="index.html"><img src="media/白字logo.png" style="width:200px;height:60px;" alt="Cirkle"></a>
+
+                    </div>
+                    <div class="nav-item nav-top-menu">
+                        <nav id="dropdown" class="template-main-menu">
+                            <ul class="menu-content">
+                                <li class="header-nav-item">
+                                    <a href="aids.html" class="menu-link active">主页</a>
+                                </li>
+                                <li class="header-nav-item">
+                                    <a href="classification.html" class="menu-link have-sub">帮帮圈</a>
+                                    <ul class="mega-menu mega-menu-col-2">
+                                        <li>
+                                          <ul class="sub-menu">
+                                              <li>
+                                                  <a href="communication.html">全部</a>
+                                              </li>
+                                              <li>
+                                                  <a href="fashion.html">时装</a>
+                                              </li>
+                                              <li>
+                                                  <a href="fashion.html">疫情</a>
+                                              </li>
+                                              <li>
+                                                  <a href="fashion.html">体育</a>
+                                              </li>
+                                              <li>
+                                                  <a href="fashion.html">思政</a>
+                                              </li>
+                                              <li>
+                                                  <a href="fashion.html">卫生</a>
+                                              </li>
+                                              <li>
+                                                  <a href="fashion.html">旅行</a>
+                                              </li>
+                                          </ul>
+                                      </li>
+                                      <li>
+                                      <ul class="sub-menu">
+                                      <li>
+                                          <a href="fashion.html">婚恋</a>
+                                      </li>
+                                      <li>
+                                          <a href="fashion.html">家庭</a>
+                                      </li>
+                                      <li>
+                                          <a href="fashion.html">购物</a>
+                                      </li>
+                                      <li>
+                                          <a href="fashion.html">语言</a>
+                                      </li>
+                                      <li>
+                                          <a href="fashion.html">社会</a>
+                                      </li>
+                                      <li>
+                                          <a href="fashion.html">国际</a>
+                                      </li>
+                                      <li>
+                                          <a href="fashion.html">宠物</a>
+                                      </li>
+                                  </ul>
+                              </li>
+
+                                    </ul>
+                                </li>
+
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="nav-item header-control">
+                        <div class="inline-item d-none d-md-block">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Search here.......">
+                                <div class="input-group-append">
+                                    <button class="submit-btn" type="button"><i class="icofont-search"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="inline-item d-flex align-items-center">
+                            <div class="dropdown dropdown-cart">
+                                <button class="dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+                                    <i class="icofont-shopping-cart"></i>
+                                </button>
+                                <div class="dropdown-menu dropdown-menu-right">
+                                    <div class="item-heading">
+                                        <h6 class="heading-title">Shopping Cart: <span>3</span></h6>
+                                    </div>
+                                    <div class="item-body">
+                                        <div class="media">
+                                            <div class="item-img">
+                                                <img src="media/figure/cart_1.jpg" alt="Product">
+                                            </div>
+                                            <div class="media-body">
+                                                <h6 class="item-title"><a href="#">Black Coffee Mug</a></h6>
+                                                <div class="item-category">COFFEE MUGS</div>
+                                                <div class="item-price">$29 x 1</div>
+                                                <div class="btn-area">
+                                                    <a href="#" class="close-btn"><i class="icofont-ui-close"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="media">
+                                            <div class="item-img">
+                                                <img src="media/figure/cart_2.jpg" alt="Product">
+                                            </div>
+                                            <div class="media-body">
+                                                <h6 class="item-title"><a href="#">Head Phone</a></h6>
+                                                <div class="item-category">Assets</div>
+                                                <div class="item-price">$15 x 1</div>
+                                                <div class="btn-area">
+                                                    <a href="#" class="close-btn"><i class="icofont-ui-close"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="media">
+                                            <div class="item-img">
+                                                <img src="media/figure/cart_3.jpg" alt="Product">
+                                            </div>
+                                            <div class="media-body">
+                                                <h6 class="item-title"><a href="#">Black Watch</a></h6>
+                                                <div class="item-category">Watch</div>
+                                                <div class="item-price">$59 x 1</div>
+                                                <div class="btn-area">
+                                                    <a href="#" class="close-btn"><i class="icofont-ui-close"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item-footer">
+                                        <a href="#" class="view-btn">View All Product</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dropdown dropdown-friend">
+                                <button class="dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+                                    <i class="icofont-users-alt-4"></i>
+                                </button>
+                                <div class="dropdown-menu dropdown-menu-right">
+                                    <div class="item-heading">
+                                        <h6 class="heading-title">Friend Requests</h6>
+                                        <div class="heading-btn">
+                                            <a href="#">Settings</a>
+                                            <a href="#">Mark all as Read</a>
+                                        </div>
+                                    </div>
+                                    <div class="item-body">
+                                        <div class="media">
+                                            <div class="item-img">
+                                                <img src="media/figure/chat_5.jpg" alt="Notify">
+                                                <span class="chat-status offline"></span>
+                                            </div>
+                                            <div class="media-body">
+                                                <h6 class="item-title"><a href="#">Lily Zaman</a></h6>
+                                                <p>4 in mutual friends</p>
+                                                <div class="btn-area">
+                                                    <a href="#" class="item-btn"><i class="icofont-plus"></i></a>
+                                                    <a href="#" class="item-btn"><i class="icofont-minus"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="media">
+                                            <div class="item-img">
+                                                <img src="media/figure/头像9.jpg"  style="width:44px;height:44px;" alt="Notify">
+                                                <span class="chat-status online"></span>
+                                            </div>
+                                            <div class="media-body">
+                                                <h6 class="item-title"><a href="#">Ketty Rose</a></h6>
+                                                <p>3 in mutual friends</p>
+                                                <div class="btn-area">
+                                                    <a href="#" class="item-btn"><i class="icofont-plus"></i></a>
+                                                    <a href="#" class="item-btn"><i class="icofont-minus"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="media">
+                                            <div class="item-img">
+                                                <img src="media/figure/chat_8.jpg" alt="Notify">
+                                                <span class="chat-status online"></span>
+                                            </div>
+                                            <div class="media-body">
+                                                <h6 class="item-title"><a href="#">Rustom vai</a></h6>
+                                                <p>6 in mutual friends</p>
+                                                <div class="btn-area">
+                                                    <a href="#" class="item-btn"><i class="icofont-plus"></i></a>
+                                                    <a href="#" class="item-btn"><i class="icofont-minus"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item-footer">
+                                        <a href="#" class="view-btn">View All Friend Request</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dropdown dropdown-message">
+                                <button class="dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+                                    <i class="icofont-speech-comments"></i>
+                                </button>
+                                <div class="dropdown-menu dropdown-menu-right">
+                                    <div class="item-heading">
+                                        <h6 class="heading-title">Message</h6>
+                                        <div class="heading-btn">
+                                            <a href="#">Settings</a>
+                                            <a href="#">Mark all as Read</a>
+                                        </div>
+                                    </div>
+                                    <div class="item-body">
+                                        <a href="#" class="media">
+                                            <div class="item-img">
+                                                <img src="media/figure/notifiy_1.png" alt="Notify">
+                                            </div>
+                                            <div class="media-body">
+                                                <h6 class="item-title">Diana Jameson</h6>
+                                                <div class="item-time">15 mins ago</div>
+                                                <p>when are nknowen printer took galley of types ...</p>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="media">
+                                            <div class="item-img">
+                                                <img src="media/figure/notifiy_2.png" alt="Notify">
+                                            </div>
+                                            <div class="media-body">
+                                                <h6 class="item-title">Quirty</h6>
+                                                <div class="item-time">15 mins ago</div>
+                                                <p>when are nknowen printer took galley of types ...</p>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="media">
+                                            <div class="item-img">
+                                                <img src="media/figure/notifiy_3.png" alt="Notify">
+                                            </div>
+                                            <div class="media-body">
+                                                <h6 class="item-title">Zinia Jessy</h6>
+                                                <div class="item-time">15 mins ago</div>
+                                                <p>when are nknowen printer took galley of types ...</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="item-footer">
+                                        <a href="#" class="view-btn">View All Messages</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dropdown dropdown-notification">
+                                <button class="dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+                                    <i class="icofont-notification"></i><span class="notify-count">3</span>
+                                </button>
+                                <div class="dropdown-menu dropdown-menu-right">
+                                    <div class="item-heading">
+                                        <h6 class="heading-title">Notifications</h6>
+                                        <div class="heading-btn">
+                                            <a href="#">Settings</a>
+                                            <a href="#">Mark all as Read</a>
+                                        </div>
+                                    </div>
+                                    <div class="item-body">
+                                        <a href="#" class="media">
+                                            <div class="item-img">
+                                                <img src="media/figure/notifiy_1.png" alt="Notify">
+                                            </div>
+                                            <div class="media-body">
+                                                <h6 class="item-title">Diana Jameson</h6>
+                                                <div class="item-time">15 mins ago</div>
+                                                <p>when are nknowen printer took galley of types ...</p>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="media">
+                                            <div class="item-img">
+                                                <img src="media/figure/notifiy_2.png" alt="Notify">
+                                            </div>
+                                            <div class="media-body">
+                                                <h6 class="item-title">Quirty</h6>
+                                                <div class="item-time">15 mins ago</div>
+                                                <p>when are nknowen printer took galley of types ...</p>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="media">
+                                            <div class="item-img">
+                                                <img src="media/figure/notifiy_3.png" alt="Notify">
+                                            </div>
+                                            <div class="media-body">
+                                                <h6 class="item-title">Zinia Jessy</h6>
+                                                <div class="item-time">15 mins ago</div>
+                                                <p>when are nknowen printer took galley of types ...</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="item-footer">
+                                        <a href="#" class="view-btn">View All Notification</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="inline-item">
+                            <div class="dropdown dropdown-admin">
+                                <button class="dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+                                    <span class="media">
+                                        <span class="item-img">
+                                            <img src="media/figure/拇指.png" style="width:44px;height:44px;" alt="Chat">
+                                            <span class="acc-verified"><i class="icofont-check"></i></span>
+                                        </span>
+                                        <span class="media-body">
+                                            <span class="item-title">定福庄小白杨</span>
+                                        </span>
+                                    </span>
+                                </button>
+                                <div class="dropdown-menu dropdown-menu-right">
+                                    <ul class="admin-options">
+                                        <li><a href="userzone.html">我的主页</a></li>
+                                        <li><a href="bangbangzhi.html">我的帮帮值</a></li>
+                                        <li><a href="login.html">退出登录</a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Sidebar Left -->
+        <div class="fixed-sidebar">
+            <div class="fixed-sidebar-left small-sidebar">
+                <div class="sidebar-toggle">
+                    <button class="toggle-btn toggler-open">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+                <div class="sidebar-menu-wrap">
+                    <div class="mCustomScrollbar" data-mcs-theme="dark" data-mcs-axis="y">
+
+                    </div>
+                </div>
+            </div>
+            <div class="fixed-sidebar-left large-sidebar">
+                <div class="sidebar-toggle">
+                    <div class="sidebar-logo">
+                        <a href="index.html"><img src="media/logo2.png" alt="Logo"></a>
+                    </div>
+                    <button class="toggle-btn toggler-close">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+                <div class="sidebar-menu-wrap">
+                    <div class="mCustomScrollbar" data-mcs-theme="dark" data-mcs-axis="y">
+
+                        <ul class="top-menu-mobile">
+                            <li class="menu-label">Community</li>
+                            <li>
+                                <a href="user-about.html" class="menu-link">Profile About</a>
+                            </li>
+                            <li>
+                                <a href="user-badges.html" class="menu-link">Profile Badges</a>
+                            </li>
+                            <li>
+                                <a href="forums.html" class="menu-link">Forums</a>
+                            </li>
+                            <li>
+                                <a href="forums-forum.html" class="menu-link">Forums Topic</a>
+                            </li>
+                            <li>
+                                <a href="forums-info.html" class="menu-link">Forums Info</a>
+                            </li>
+                            <li>
+                                <a href="forums-members.html" class="menu-link">Forums Members</a>
+                            </li>
+                            <li>
+                                <a href="forums-media.html" class="menu-link">Forums Media</a>
+                            </li>
+                            <li class="menu-label">Pages</li>
+                            <li>
+                                <a href="about-us.html" class="menu-link">About</a>
+                            </li>
+                            <li>
+                                <a href="user-blog.html" class="menu-link">Blog</a>
+                            </li>
+                            <li>
+                                <a href="shop.html" class="menu-link">Shop</a>
+                            </li>
+                            <li>
+                                <a href="hotlist.html" class="menu-link">Hot List</a>
+                            </li>
+                            <li>
+                                <a href="single-shop.html" class="menu-link">Shop Details</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Sidebar Right -->
+        <div class="fixed-sidebar right">
+            <div class="fixed-sidebar-right small-sidebar">
+                <div class="sidebar-toggle" id="chat-head-toggle">
+                    <button class="chat-icon">
+                        <i class="icofont-speech-comments"></i>
+                    </button>
+                </div>
+                <div class="sidebar-menu-wrap">
+                    <div class="mCustomScrollbar" data-mcs-theme="dark" data-mcs-axis="y">
+                        <ul class="user-chat-list">
+                            <li class="chat-item chat-open">
+                                <div class="author-img">
+                                    <img src="media/figure/头像9.jpg"  style="width:44px;height:44px;" alt="chat">
+                                    <span class="chat-status offline"></span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Page Content -->
+        <div class="page-content">
+
+            <!--=====================================-->
+            <!--=        Newsfeed  Area Start       =-->
+            <!--=====================================-->
+            <div class="container">
+                <!-- Banner Area Start -->
+                <div class="newsfeed-banner">
+                    <div class="media">
+                        <div class="item-icon">
+                            <i class="icofont-megaphone-alt"></i>
+                        </div>
+                        <div class="media-body">
+                            <h3 class="item-title">问卷侠是也！</h3>
+                            <p>一帮还一帮~</p>
+                        </div>
+                    </div>
+                    <ul class="animation-img">
+                        <li data-sal="slide-down" data-sal-duration="800" data-sal-delay="400"><img src="media/banner/shape_7.png" alt="shape"></li>
+                        <li data-sal="slide-up" data-sal-duration="500"><img src="media/banner/people_2.png" alt="shape"></li>
+                    </ul>
+                </div>
+                <div class="newsfeed-search">
+                    <ul class="member-list">
+                        <li class="active-member">
+                            <a href="#">
+                                <span class="member-icon">
+                                    <i class="icofont-users"></i>
+                                </span>
+                                <span class="member-text">
+                                    目前所在帮帮圈：
+                                </span>
+                                <span class="member-count">（无筛选）</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="search-list">
+                        <li class="search-filter">
+                            <button class="drop-btn" type="button">
+                                <i class="icofont-abacus-alt"></i>
+                            </button>
+                            <div class="drop-menu">
+                                <select class="select2">
+                                    <option>--所有--</option>
+                                    <option>旅行</option>
+                                    <option>宠物</option>
+                                    <option>疫情</option>
+                                    <option>婚恋</option>
+                                    <option>体育</option>
+                                    <option>家庭</option>
+                                    <option>社会</option>
+                                    <option>国际</option>
+                                    <option>思政</option>
+                                    <option>购物</option>
+                                    <option>语言</option>
+                                </select>
+                            </div>
+                        </li>
+                        <li class="search-input">
+                            <button class="drop-btn" type="button">
+                                <i class="icofont-search"></i>
+                            </button>
+                            <div class="drop-menu">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="搜搜看吧">
+                                    <div class="input-group-append">
+                                        <button class="search-btn" type="button"><i class="icofont-search-1"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="block-box post-input-tab" >
+                            <ul class="nav nav-tabs" role="tablist">
+                                <li class="nav-item" role="presentation" data-toggle="tooltip" data-placement="top" title="STATUS">
+                                    <a class="nav-link active" data-toggle="tab" href="#post-status" role="tab" aria-selected="true"><i class="icofont-copy"></i>我要发帖</a>
+                                </li>
+                                <li class="nav-item" role="presentation" data-toggle="tooltip" data-placement="top" title="MEDIA">
+                                    <a class="nav-link" data-toggle="tab" href="#post-media" role="tab" aria-selected="false"><i class="icofont-image"></i>我要配图</a>
+                                </li>
+                                <li class="nav-item" role="presentation" data-toggle="tooltip" data-placement="top" title="BLOG">
+                                    <a class="nav-link" data-toggle="tab" href="#post-blog" role="tab" aria-selected="false"><i class="icofont-list"></i>我要吐槽</a>
+                                </li>
+                            </ul>
+                            <div class="bbs"style="text-align:center">
+                              <header><span onclick="post()" > </span></header>
+                            </div>
+                            <div class="post" style="text-align:center">
+                              <input class="form-control textarea" style="height: 200px;width:100%;text-align:center"  placeholder="说说你的问卷是什么样吧~" id="title" >
+                                  <br>
+                              所属版块：<select id="sec"><option selected>请选择版块</option><option>旅行</option><option>体育</option><option>疫情</option><option>思政</option><option>卫生</option><option>其他</option></select>
+                              <br>
+                              <br>
+                                <div class="submit-btn" >
+                                    <button class="sb-btn"  onclick="postSuccess()">一键发布</button>
+                                  </div>
+
+                            </div>
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+                      <div class="block-box post-view" id="postyeye"></div>
+                        <div class="block-box post-view">
+                            <div class="post-header">
+                                <div class="media">
+                                    <div class="user-img">
+                                        <img src="media/figure/chat_10.jpg" alt="Aahat">
+                                    </div>
+                                    <div class="media-body">
+                                        <div class="user-title"><a href="user-timeline.html">Aahat Akter</a> <i class="icofont-check"></i> 发布于 <a href="#">疫情帮帮圈</a> </div>
+                                        <ul class="entry-meta">
+                                            <li class="meta-privacy"><i class="icofont-world"></i> 公开</li>
+                                            <li class="meta-time">2分钟前</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="post-body" style="text-align:center">
+                                <p>关于新冠疫情期间社区动员措施及效果调查，感谢大家帮帮！<i class="icofont-wink-smile"></i></p>
+                                <div class="post-img" style="text-align:center">
+                                      <img src="media/figure/invitation.jpg" class="d-inline-block align-center w-25" alt="Post">
+                                </div>
+                                <div class="post-meta-wrap">
+                                    <div class="post-meta">
+                                        <div class="post-reaction">
+                                            <div class="reaction-icon">
+                                                <img src="media/figure/reaction_1.png" alt="icon">
+                                                <img src="media/figure/reaction_2.png" alt="icon">
+                                            </div>
+                                            <div class="meta-text">15</div>
+                                        </div>
+                                    </div>
+                                    <div class="submit-btn">
+                                      <a href="xiangqing1.html">
+                                      <button class="sb-btn">
+                                      点击填写问卷
+                                      </button></a>
+                                    </div>
+                                    <div class="post-footer" >
+                                        <div class="meta-text" >2人评论</div>
+                                        <div class="meta-text" >15人帮帮</div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block-box post-view" id="postyeye"></div>
+                          <div class="block-box post-view">
+                              <div class="post-header">
+                                  <div class="media">
+                                      <div class="user-img">
+                                          <img src="media/figure/chat_10.jpg" alt="Aahat">
+                                      </div>
+                                      <div class="media-body">
+                                          <div class="user-title"><a href="user-timeline.html">Aahat Akter</a> <i class="icofont-check"></i> 发布于 <a href="#">体育帮帮圈</a> </div>
+                                          <ul class="entry-meta">
+                                              <li class="meta-privacy"><i class="icofont-world"></i> 公开</li>
+                                              <li class="meta-time">5分钟前</li>
+                                          </ul>
+                                      </div>
+                                  </div>
+
+                              </div>
+                              <div class="post-body" style="text-align:center">
+                                  <p>关于大学生对体育赛事的关注度调查，还差20份，谢谢大家！<i class="icofont-wink-smile"></i></p>
+                                  <div class="post-img" style="text-align:center">
+                                        <img src="media/figure/invitation2.jpg" class="d-inline-block align-center w-25" alt="Post">
+                                  </div>
+                                  <div class="post-meta-wrap">
+                                      <div class="post-meta">
+                                          <div class="post-reaction">
+                                              <div class="reaction-icon">
+                                                  <img src="media/figure/reaction_1.png" alt="icon">
+                                                  <img src="media/figure/reaction_2.png" alt="icon">
+                                              </div>
+                                              <div class="meta-text">32</div>
+                                          </div>
+                                      </div>
+                                      <div class="submit-btn">
+                                        <a href="xiangqing1.html">
+                                        <button class="sb-btn">
+                                        点击填写问卷
+                                        </button></a>
+                                      </div>
+                                      <div class="post-footer" >
+                                          <div class="meta-text" >5人评论</div>
+                                          <div class="meta-text" >26人帮帮</div>
+
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+
+                          <div class="block-box post-view" id="postyeye"></div>
+                            <div class="block-box post-view">
+                                <div class="post-header">
+                                    <div class="media">
+                                        <div class="user-img">
+                                            <img src="media/figure/chat_10.jpg" alt="Aahat">
+                                        </div>
+                                        <div class="media-body">
+                                            <div class="user-title"><a href="user-timeline.html">Aahat Akter</a> <i class="icofont-check"></i> 发布于 <a href="#">旅游帮帮圈</a> </div>
+                                            <ul class="entry-meta">
+                                                <li class="meta-privacy"><i class="icofont-world"></i> 公开</li>
+                                                <li class="meta-time">12分钟前</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="post-body" style="text-align:center">
+                                    <p>想趁着暑假去旅游，大家心中最美的目的地是哪里呢~<i class="icofont-wink-smile"></i></p>
+                                    <div class="post-img" style="text-align:center">
+                                          <img src="media/figure/invitation3.jpg" class="d-inline-block align-center w-25" alt="Post">
+                                    </div>
+                                    <div class="post-meta-wrap">
+                                        <div class="post-meta">
+                                            <div class="post-reaction">
+                                                <div class="reaction-icon">
+                                                    <img src="media/figure/reaction_1.png" alt="icon">
+                                                    <img src="media/figure/reaction_2.png" alt="icon">
+                                                </div>
+                                                <div class="meta-text">35</div>
+                                            </div>
+                                        </div>
+                                        <div class="submit-btn">
+                                          <a href="xiangqing1.html">
+                                          <button class="sb-btn">
+                                          点击填写问卷
+                                          </button></a>
+                                        </div>
+                                        <div class="post-footer" >
+                                            <div class="meta-text" >6人评论</div>
+                                            <div class="meta-text" >43人帮帮</div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="block-box post-view" id="postyeye"></div>
+                              <div class="block-box post-view">
+                                  <div class="post-header">
+                                      <div class="media">
+                                          <div class="user-img">
+                                              <img src="media/figure/chat_10.jpg" alt="Aahat">
+                                          </div>
+                                          <div class="media-body">
+                                              <div class="user-title"><a href="user-timeline.html">Aahat Akter</a> <i class="icofont-check"></i> 发布于 <a href="#">大学生观察帮帮圈</a> </div>
+                                              <ul class="entry-meta">
+                                                  <li class="meta-privacy"><i class="icofont-world"></i> 公开</li>
+                                                  <li class="meta-time">22分钟前</li>
+                                              </ul>
+                                          </div>
+                                      </div>
+
+                                  </div>
+                                  <div class="post-body" style="text-align:center">
+                                      <p>一张大学生发布的研究大学生的问卷，请大学生们帮帮<i class="icofont-wink-smile"></i></p>
+                                      <div class="post-img" style="text-align:center">
+                                            <img src="media/figure/invitation4.jpg" class="d-inline-block align-center w-25" alt="Post">
+                                      </div>
+                                      <div class="post-meta-wrap">
+                                          <div class="post-meta">
+                                              <div class="post-reaction">
+                                                  <div class="reaction-icon">
+                                                      <img src="media/figure/reaction_1.png" alt="icon">
+                                                      <img src="media/figure/reaction_2.png" alt="icon">
+                                                  </div>
+                                                  <div class="meta-text">75</div>
+                                              </div>
+                                          </div>
+                                          <div class="submit-btn">
+                                            <a href="xiangqing1.html">
+                                            <button class="sb-btn">
+                                            点击填写问卷
+                                            </button></a>
+                                          </div>
+                                          <div class="post-footer" >
+                                              <div class="meta-text" >98人评论</div>
+                                              <div class="meta-text" >223人帮帮</div>
+
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+
+                        <div class="block-box load-more-btn">
+                            <a href="#" class="item-btn"><i class="icofont-refresh"></i>发现更多</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 widget-block widget-break-lg">
+                        <div class="widget widget-author">
+                            <div class="author-heading">
+                                <div class="cover-img">
+                                    <img src="media/figure/文化广场.png" style="width:380px;height:95px;" alt="cover">
+                                </div>
+                                <div class="profile-img">
+                                    <a href="userzone.html">
+                                        <img src="media/figure/拇指.png" style="width:90px;height:90px;" alt="author">
+                                    </a>
+                                </div>
+                                <div class="profile-name">
+                                    <h4 class="author-name"><a href="#">定福庄小白杨</a></h4>
+                                    <div class="author-location">做完这个网页就可以上大三了！</div>
+                                </div>
+                            </div>
+                            <ul class="author-badge">
+                                <li><a href="#" class="bg-salmon-gradient"><i class="icofont-star"></i></a></li>
+                                <li><a href="#" class="bg-amethyst-gradient"><i class="icofont-ui-play"></i></a></li>
+                                <li><a href="#" class="bg-sun-gradient"><i class="icofont-squirrel"></i></a></li>
+                                <li><a href="#" class="profile-circle">+5</a></li>
+                            </ul>
+                            <ul class="author-statistics">
+                                <li>
+                                    <a href="#"><span class="item-number">30</span> <span class="item-text">帖子</span></a>
+                                </li>
+                                <li>
+                                    <a href="#"><span class="item-number">12</span> <span class="item-text">好友</span></a>
+                                </li>
+                                <li>
+                                    <a href="#"><span class="item-number">1,125</span> <span class="item-text">帮帮次数</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="widget widget-memebers">
+                            <div class="widget-heading">
+                                <h3 class="widget-title">好友</h3>
+
+                            </div>
+                            <ul class="nav nav-tabs" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" data-toggle="tab" href="#newest-member" role="tab" aria-selected="true">最近聊天</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#popular-member" role="tab" aria-selected="false">最常访问</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#active-member" role="tab" aria-selected="false">最多互动</a>
+                                </li>
+                            </ul>
+                            <div class="tab-content">
+                                <div class="tab-pane fade show active" id="newest-member" role="tabpanel">
+                                    <div class="members-list">
+                                        <div class="media">
+                                            <div class="item-img">
+                                                <a href="#">
+                                                    <img src="media/figure/头像9.jpg"  style="width:44px;height:44px;" alt="Chat">
+                                                </a>
+                                            </div>
+                                            <div class="media-body">
+                                                <h4 class="item-title"><a href="#">Aahat Akter</a></h4>
+                                                <div class="item-username">@Aahat </div>
+                                                <div class="member-status online"><i class="icofont-check"></i></div>
+                                            </div>
+                                        </div>
+                                        <div class="media">
+                                            <div class="item-img">
+                                                <a href="#">
+                                                    <img src="media/figure/chat_2.jpg" alt="Chat">
+                                                </a>
+                                            </div>
+                                            <div class="media-body">
+                                                <h4 class="item-title"><a href="#">Kazi Rahman</a></h4>
+                                                <div class="item-username">@Rahman</div>
+                                                <div class="member-status online"><i class="icofont-check"></i></div>
+                                            </div>
+                                        </div>
+                                        <div class="media">
+                                            <div class="item-img">
+                                                <a href="#">
+                                                    <img src="media/figure/chat_3.jpg" alt="Chat">
+                                                </a>
+                                            </div>
+                                            <div class="media-body">
+                                                <h4 class="item-title"><a href="#">Alia Karon</a></h4>
+                                                <div class="item-username">@Alia</div>
+                                                <div class="member-status online"><i class="icofont-check"></i></div>
+                                            </div>
+                                        </div>
+                                        <div class="media">
+                                            <div class="item-img">
+                                                <a href="#">
+                                                    <img src="media/figure/chat_4.jpg" alt="Chat">
+                                                </a>
+                                            </div>
+                                            <div class="media-body">
+                                                <h4 class="item-title"><a href="#">Masterero</a></h4>
+                                                <div class="item-username">@Master</div>
+                                                <div class="member-status offline"><i class="icofont-check"></i></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="popular-member" role="tabpanel">
+                                    <div class="members-list">
+                                        <div class="media">
+                                            <div class="item-img">
+                                                <a href="#">
+                                                    <img src="media/figure/头像9.jpg"  style="width:44px;height:44px;" alt="Chat">
+                                                </a>
+                                            </div>
+                                            <div class="media-body">
+                                                <h4 class="item-title"><a href="#">Aahat Akter</a></h4>
+                                                <div class="item-username">@Aahat </div>
+                                                <div class="member-status online"><i class="icofont-check"></i></div>
+                                            </div>
+                                        </div>
+                                        <div class="media">
+                                            <div class="item-img">
+                                                <a href="#">
+                                                    <img src="media/figure/chat_2.jpg" alt="Chat">
+                                                </a>
+                                            </div>
+                                            <div class="media-body">
+                                                <h4 class="item-title"><a href="#">Kazi Rahman</a></h4>
+                                                <div class="item-username">@Rahman</div>
+                                                <div class="member-status online"><i class="icofont-check"></i></div>
+                                            </div>
+                                        </div>
+                                        <div class="media">
+                                            <div class="item-img">
+                                                <a href="#">
+                                                    <img src="media/figure/chat_3.jpg" alt="Chat">
+                                                </a>
+                                            </div>
+                                            <div class="media-body">
+                                                <h4 class="item-title"><a href="#">Alia Karon</a></h4>
+                                                <div class="item-username">@Alia</div>
+                                                <div class="member-status online"><i class="icofont-check"></i></div>
+                                            </div>
+                                        </div>
+                                        <div class="media">
+                                            <div class="item-img">
+                                                <a href="#">
+                                                    <img src="media/figure/chat_4.jpg" alt="Chat">
+                                                </a>
+                                            </div>
+                                            <div class="media-body">
+                                                <h4 class="item-title"><a href="#">Masterero</a></h4>
+                                                <div class="item-username">@Master</div>
+                                                <div class="member-status offline"><i class="icofont-check"></i></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="active-member" role="tabpanel">
+                                    <div class="members-list">
+                                        <div class="media">
+                                            <div class="item-img">
+                                                <a href="#">
+                                                    <img src="media/figure/头像9.jpg"  style="width:44px;height:44px;" alt="Chat">
+                                                </a>
+                                            </div>
+                                            <div class="media-body">
+                                                <h4 class="item-title"><a href="#">Aahat Akter</a></h4>
+                                                <div class="item-username">@Aahat </div>
+                                                <div class="member-status online"><i class="icofont-check"></i></div>
+                                            </div>
+                                        </div>
+                                        <div class="media">
+                                            <div class="item-img">
+                                                <a href="#">
+                                                    <img src="media/figure/chat_2.jpg" alt="Chat">
+                                                </a>
+                                            </div>
+                                            <div class="media-body">
+                                                <h4 class="item-title"><a href="#">Kazi Rahman</a></h4>
+                                                <div class="item-username">@Rahman</div>
+                                                <div class="member-status online"><i class="icofont-check"></i></div>
+                                            </div>
+                                        </div>
+                                        <div class="media">
+                                            <div class="item-img">
+                                                <a href="#">
+                                                    <img src="media/figure/chat_3.jpg" alt="Chat">
+                                                </a>
+                                            </div>
+                                            <div class="media-body">
+                                                <h4 class="item-title"><a href="#">Alia Karon</a></h4>
+                                                <div class="item-username">@Alia</div>
+                                                <div class="member-status online"><i class="icofont-check"></i></div>
+                                            </div>
+                                        </div>
+                                        <div class="media">
+                                            <div class="item-img">
+                                                <a href="#">
+                                                    <img src="media/figure/chat_4.jpg" alt="Chat">
+                                                </a>
+                                            </div>
+                                            <div class="media-body">
+                                                <h4 class="item-title"><a href="#">Masterero</a></h4>
+                                                <div class="item-username">@Master</div>
+                                                <div class="member-status offline"><i class="icofont-check"></i></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="widget widget-groups">
+                            <div class="widget-heading">
+                                <h3 class="widget-title">热门帮帮圈</h3>
+                            </div>
+                            <ul class="nav nav-tabs" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" data-toggle="tab" href="#active-group" role="tab" aria-selected="true">活跃</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#popular-group" role="tab" aria-selected="false">热门</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#newest-group" role="tab" aria-selected="false">最新</a>
+                                </li>
+                            </ul>
+                            <div class="tab-content">
+                                <div class="tab-pane fade show active" id="active-group" role="tabpanel">
+                                    <div class="group-list">
+                                        <div class="media">
+                                            <div class="item-img">
+                                                <a href="#">
+                                                    <img src="media/groups/groups_9.jpg" alt="group">
+                                                </a>
+                                            </div>
+                                            <div class="media-body">
+                                                <h4 class="item-title"><a href="#">Kito Development</a></h4>
+                                                <div class="item-member">265 Members</div>
+                                            </div>
+                                        </div>
+                                        <div class="media">
+                                            <div class="item-img">
+                                                <a href="#">
+                                                    <img src="media/groups/groups_10.jpg" alt="group">
+                                                </a>
+                                            </div>
+                                            <div class="media-body">
+                                                <h4 class="item-title"><a href="#">Chef Express</a></h4>
+                                                <div class="item-member">4,265 Members</div>
+                                            </div>
+                                        </div>
+                                        <div class="media">
+                                            <div class="item-img">
+                                                <a href="#">
+                                                    <img src="media/groups/groups_11.jpg" alt="group">
+                                                </a>
+                                            </div>
+                                            <div class="media-body">
+                                                <h4 class="item-title"><a href="#">Photo Contest</a></h4>
+                                                <div class="item-member">1,265 Members</div>
+                                            </div>
+                                        </div>
+                                        <div class="media">
+                                            <div class="item-img">
+                                                <a href="#">
+                                                    <img src="media/groups/groups_12.jpg" alt="group">
+                                                </a>
+                                            </div>
+                                            <div class="media-body">
+                                                <h4 class="item-title"><a href="#">WP Developers</a></h4>
+                                                <div class="item-member">265 Members</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="popular-group" role="tabpanel">
+                                    <div class="group-list">
+                                        <div class="media">
+                                            <div class="item-img">
+                                                <a href="#">
+                                                    <img src="media/groups/groups_9.jpg" alt="group">
+                                                </a>
+                                            </div>
+                                            <div class="media-body">
+                                                <h4 class="item-title"><a href="#">Kito Development</a></h4>
+                                                <div class="item-member">265 Members</div>
+                                            </div>
+                                        </div>
+                                        <div class="media">
+                                            <div class="item-img">
+                                                <a href="#">
+                                                    <img src="media/groups/groups_10.jpg" alt="group">
+                                                </a>
+                                            </div>
+                                            <div class="media-body">
+                                                <h4 class="item-title"><a href="#">Chef Express</a></h4>
+                                                <div class="item-member">4,265 Members</div>
+                                            </div>
+                                        </div>
+                                        <div class="media">
+                                            <div class="item-img">
+                                                <a href="#">
+                                                    <img src="media/groups/groups_11.jpg" alt="group">
+                                                </a>
+                                            </div>
+                                            <div class="media-body">
+                                                <h4 class="item-title"><a href="#">Photo Contest</a></h4>
+                                                <div class="item-member">1,265 Members</div>
+                                            </div>
+                                        </div>
+                                        <div class="media">
+                                            <div class="item-img">
+                                                <a href="#">
+                                                    <img src="media/groups/groups_12.jpg" alt="group">
+                                                </a>
+                                            </div>
+                                            <div class="media-body">
+                                                <h4 class="item-title"><a href="#">WP Developers</a></h4>
+                                                <div class="item-member">265 Members</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="newest-group" role="tabpanel">
+                                    <div class="group-list">
+                                        <div class="media">
+                                            <div class="item-img">
+                                                <a href="#">
+                                                    <img src="media/groups/groups_9.jpg" alt="group">
+                                                </a>
+                                            </div>
+                                            <div class="media-body">
+                                                <h4 class="item-title"><a href="#">Kito Development</a></h4>
+                                                <div class="item-member">265 Members</div>
+                                            </div>
+                                        </div>
+                                        <div class="media">
+                                            <div class="item-img">
+                                                <a href="#">
+                                                    <img src="media/groups/groups_10.jpg" alt="group">
+                                                </a>
+                                            </div>
+                                            <div class="media-body">
+                                                <h4 class="item-title"><a href="#">Chef Express</a></h4>
+                                                <div class="item-member">4,265 Members</div>
+                                            </div>
+                                        </div>
+                                        <div class="media">
+                                            <div class="item-img">
+                                                <a href="#">
+                                                    <img src="media/groups/groups_11.jpg" alt="group">
+                                                </a>
+                                            </div>
+                                            <div class="media-body">
+                                                <h4 class="item-title"><a href="#">Photo Contest</a></h4>
+                                                <div class="item-member">1,265 Members</div>
+                                            </div>
+                                        </div>
+                                        <div class="media">
+                                            <div class="item-img">
+                                                <a href="#">
+                                                    <img src="media/groups/groups_12.jpg" alt="group">
+                                                </a>
+                                            </div>
+                                            <div class="media-body">
+                                                <h4 class="item-title"><a href="#">WP Developers</a></h4>
+                                                <div class="item-member">265 Members</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="widget widget-banner">
+                            <h3 class="item-title">问卷人必备网站<br>大学生期末福音</h3>
+                            <div class="item-subtitle"></div>
+                            <a href="#" class="item-btn">
+                                <span class="btn-text">立刻注册！！</span>
+                                <span class="btn-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="21px" height="10px">
+                                        <path fill-rule="evenodd" d="M16.671,9.998 L12.997,9.998 L16.462,6.000 L5.000,6.000 L5.000,4.000 L16.462,4.000 L12.997,0.002 L16.671,0.002 L21.003,5.000 L16.671,9.998 ZM17.000,5.379 L17.328,5.000 L17.000,4.621 L17.000,5.379 ZM-0.000,4.000 L3.000,4.000 L3.000,6.000 L-0.000,6.000 L-0.000,4.000 Z" />
+                                    </svg>
+                                </span>
+                            </a>
+                            <div class="item-img">
+                                <img src="media/figure/widget_banner_1.png" alt="banner">
+                            </div>
+                        </div>
+                        <div class="widget widget-memebers widget-activity">
+                            <div class="widget-heading">
+                                <h3 class="widget-title">好友动态</h3>
+                            </div>
+                            <div class="activity-list">
+                                <div class="media">
+                                    <div class="item-img">
+                                        <a href="#">
+                                            <img src="media/figure/chat_10.jpg" alt="Chat">
+                                        </a>
+                                    </div>
+                                    <div class="media-body">
+                                        <h4 class="item-title">
+                                            <a href="#" class="author-name">Aahat Akter</a>
+                                            评论了 Destroy Dex的
+                                            <a href="#" class="activity-link">问卷</a>
+                                        </h4>
+                                        <div class="activity-time">20 分钟前</div>
+                                    </div>
+                                </div>
+                                <div class="media">
+                                    <div class="item-img">
+                                        <a href="#">
+                                            <img src="media/figure/chat_8.jpg" alt="Chat">
+                                        </a>
+                                    </div>
+                                    <div class="media-body">
+                                        <h4 class="item-title">
+                                            <a href="#" class="author-name">Neko Bebop</a>
+                                            赞了 Marina的
+                                            <a href="#" class="activity-link">问卷</a>
+                                        </h4>
+                                        <div class="activity-time">15分钟前</div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--=====================================-->
+            <!--=        Footer Area Start       	=-->
+            <!--=====================================-->
+            <footer class="footer-wrap footer-dashboard">
+                <div class="main-footer">
+                    <div class="container">
+                        <div class="row row-cols-lg-4 row-cols-sm-2 row-cols-1">
+                            <div class="col">
+                                <div class="footer-box">
+                                    <div class="footer-logo">
+                                        <a href="index.html"><img src="media/黄字logo.png" alt="Logo"></a>
+                                    </div>
+                                    <p>一帮还一帮！</p>
+                                </div>
+                            </div>
+                            <div class="col d-flex justify-content-lg-center">
+                                <div class="footer-box">
+                                    <h3 class="footer-title">
+                                        网站作者
+                                    </h3>
+                                    <div class="footer-link">
+                                        <ul>
+                                            <li>中国传媒大学广告学院</l>
+                                            <li>唐&emsp;堃   &emsp;王祉迪   &emsp;周思成</l>
+                                            <li>刘&emsp;昊   &emsp;马若岚   &emsp;伍梓凡</li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col d-flex justify-content-lg-center">
+                                <div class="footer-box">
+                                    <h3 class="footer-title">
+                                        联系我们
+                                    </h3>
+                                    <div class="footer-link">
+                                        <ul>
+                                          <li>地址：北京市朝阳区定福庄东街1号</l>
+                                          <li>电话：010-12345678</li>
+                                          <li>邮箱：wenjuanxia@cuc.com</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col d-flex justify-content-lg-center">
+                                <div class="footer-box">
+                                    <h3 class="footer-title">
+                                        关注我们
+                                    </h3>
+                                    <div class="footer-link">
+                                        <ul>
+                                          <li>官方微博：@问卷侠</l>
+                                          <li>官方公众号：问卷侠</li>
+                                          <li>官方抖音：@问卷侠</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <div class="footer-copyright">Copy© cirkle 2021. All Rights By <a href="http://www.bootstrapmb.com/">bootstrapmb</a></div>
+                </div>
+            </footer>
+
+
+
+        </div>
+        <!-- Chat Modal Here -->
+        <div class="chat-conversion-box" id="chat-box-modal" tabindex="-1" aria-labelledby="chat-modal-label" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <h6 class="modal-title" id="chat-modal-label">甜心puppy酱 <span class="online"></span></h6>
+                      <div class="action-icon">
+                          <button class="chat-shrink"><i class="icofont-minus"></i></button>
+                          <button type="button" class="close chat-close chat-open" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                          </button>
+                      </div>
+                  </div>
+                  <div class="modal-body">
+                      <ul class="chat-conversion">
+                          <li class="chat-others">
+                              <div class="author-img">
+                                  <img src="media/figure/头像9.jpg" alt="Chat" style="height:44px;width:44px">
+                              </div>
+                              <div class="author-text">
+                                  <span>杨雪睿的问卷你收了多少份？</span>
+                              </div>
+                          </li>
+                          <li class="chat-you">
+                              <div class="author-img">
+                                  <img src="media/figure/333.png" alt="Chat" style="height:44px;width:44px">
+                              </div>
+                              <div class="author-text">
+                                  <span>我还差50份，我要死了</span>
+                              </div>
+                          </li>
+                          <li class="chat-others">
+                              <div class="author-img">
+                                  <img src="media/figure/头像9.jpg" alt="Chat" style="height:44px;width:44px">
+                              </div>
+                              <div class="author-text">
+                                  <span>哈哈哈哈哈我还没开始</span>
+                              </div>
+                          </li>
+                      </ul>
+                  </div>
+                  <div class="modal-footer">
+                      <form>
+                          <div class="form-group">
+                              <input type="text" class="form-control" placeholder="在这里输入想说的话哦~">
+                              <div class="chat-plus-icon"><i class="icofont-plus-circle"></i></div>
+                              <div class="file-attach-icon">
+                                  <a href="#"><i class="icofont-slightly-smile"></i></a>
+                                  <a href="#"><i class="icofont-camera"></i></a>
+                                  <a href="#"><i class="icofont-image"></i></a>
+                                  <a href="#"><i class="icofont-mic"></i></a>
+                              </div>
+                          </div>
+                      </form>
+                  </div>
+              </div>
+            </div>
+        </div>
+    </div>
+    <!-- Jquery Js -->
+    <script src="dependencies/jquery/js/jquery.min.js"></script>
+    <script src="dependencies/popper.js/js/popper.min.js"></script>
+    <script src="dependencies/bootstrap/js/bootstrap.min.js"></script>
+    <script src="dependencies/imagesloaded/js/imagesloaded.pkgd.min.js"></script>
+    <script src="dependencies/isotope-layout/js/isotope.pkgd.min.js"></script>
+    <script src="dependencies/slick-carousel/js/slick.min.js"></script>
+    <script src="dependencies/sal.js/sal.js"></script>
+    <script src="dependencies/magnific-popup/js/jquery.magnific-popup.min.js"></script>
+    <script src="dependencies/mcustomscrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="dependencies/select2/js/select2.min.js"></script>
+    <script src="dependencies/elevate-zoom/jquery.elevatezoom.js"></script>
+    <script src="dependencies/bootstrap-validator/js/validator.min.js"></script>
+    <script src="http://www.google.cn/maps/api/js?key=AIzaSyBtmXSwv4YmAKtcZyyad9W7D4AC08z0Rb4"></script>
+    <script>
+    // 弹出 帖子输入的框---【去掉默认隐藏为显示，设置display = "block";】
+    function post(){
+    var inp = document.getElementsByClassName("post");
+        inp[0].style.display = "block";
+    }
+
+    // 点击发布
+    function postSuccess(){
+        //隐藏发布框
+        var inp = document.getElementsByClassName("post");
+        inp[0].style.display = "none";
+
+        // 创建li标签 		【并把li标签添加到ul列表下的首个子标签的位置】
+        var div1=document.createElement("div");
+        var div2 = document.getElementById("postyeye");
+        div2.insertBefore(div1,div2.firstChild);//【保证li当前添加的li标签始终在最上面】
+
+        // 创建div标签 		并往li中添加div标签
+        var blockbox=document.createElement("div");
+        blockbox.className="block-box post-view";
+        div1.appendChild(blockbox);
+
+        var postheader=document.createElement("div");
+        postheader.className="post-header";
+        blockbox.appendChild(postheader);
+
+        var media=document.createElement("div");
+        media.className="media";
+        postheader.appendChild(media);
+
+        var userimg=document.createElement("div");
+        userimg.className="user-img";
+        media.appendChild(userimg);
+
+        var uimg=document.createElement("img");
+        uimg.setAttribute("src","media/figure/chat_10.jpg");
+        uimg.setAttribute("class","user-img");
+        uimg.setAttribute("alt","Aahat");
+        media.appendChild(uimg);
+
+        var mediabody=document.createElement("div");
+        mediabody.className="media-body";
+        media.appendChild(mediabody);
+
+        var usertitle=document.createElement("div");
+        usertitle.className="user-title";
+        mediabody.appendChild(usertitle);
+
+        var usertimeline=document.createElement("a");
+        usertimeline.setAttribute('href', 'user-timeline.html');
+        usertitle.appendChild(usertimeline);
+
+        var txt1 = document.createTextNode("Aahat Akter");
+        usertimeline.appendChild(txt1);
+
+        var icofontcheck=document.createElement("i");
+        icofontcheck.className="icofont-check";
+        usertitle.appendChild(icofontcheck);
+
+        var pitg=document.createTextNode("发布于");
+        usertitle.appendChild(pitg);
+
+        var tg=document.createElement("a");
+        tg.setAttribute('href', '#');
+        usertitle.appendChild(tg);
+
+
+        var ban = document.getElementById("sec");
+        var txt2 = document.createTextNode(ban.value+"帮帮圈");
+        tg.appendChild(txt2);
+
+
+        var entrymeta=document.createElement("ul");
+        entrymeta.className="entry-meta";
+        mediabody.appendChild(entrymeta);
+
+        var metaprivacy=document.createElement("li");
+        metaprivacy.className="meta-privacy";
+        entrymeta.appendChild(metaprivacy);
+
+        var icofontworld=document.createElement("i");
+        icofontworld.className="icofont-world";
+        metaprivacy.appendChild(icofontworld);
+
+        var txt3 = document.createTextNode("公开");
+        metaprivacy.appendChild(txt3);
+
+        var metatime=document.createElement("li");
+        metatime.className="meta-time";
+        entrymeta.appendChild(metatime);
+
+        var txt4 = document.createTextNode("刚刚");
+        metatime.appendChild(txt4);
+
+        var dropdown1=document.createElement("div");
+        dropdown1.className="dropdown";
+        postheader.appendChild(dropdown1);
+
+
+        var postbody=document.createElement("div");
+        postbody.className="post-body";
+        postbody.setAttribute('style', 'text-align:center');
+        blockbox.appendChild(postbody);
+
+        var p1=document.createElement("p");
+        postbody.appendChild(p1);
+
+        // 获取标题输入框中的内容
+        var biao =  document.getElementById("title");
+        var ban = document.getElementById("sec");
+        p1.innerText = biao.value;
+
+        // 把所选板块的信息写在p标签中
+
+
+        //var txt9 = document.createTextNode("问卷帮帮！");
+        //p1.appendChild(txt9);
+
+        var icofontwinksmile=document.createElement("i");
+        icofontwinksmile.className="icofont-wink-smile";
+        p1.appendChild(icofontwinksmile);
+
+        var postimg=document.createElement("div");
+        postimg.className="post-img";
+        postbody.appendChild(postimg);
+
+        var pimg=document.createElement("img");
+        pimg.setAttribute("src","media/figure/invitation5.jpg");
+
+        pimg.setAttribute("alt","Post");
+        postimg.appendChild(pimg);
+
+
+        var postmetawrap=document.createElement("div");
+        postmetawrap.className="post-meta-wrap";
+        postbody.appendChild(postmetawrap);
+
+        var postmeta1=document.createElement("div");
+        postmeta1.className="post-meta";
+        postmetawrap.appendChild(postmeta1);
+
+        var postreaction=document.createElement("div");
+        postreaction.className="post-reaction";
+        postmeta1.appendChild(postreaction);
+
+        var reactionicon=document.createElement("div");
+        reactionicon.className="reaction-icon";
+        postreaction.appendChild(reactionicon);
+
+        var rimg1=document.createElement("img");
+        reactionicon.appendChild(rimg1);
+
+        rimg1.setAttribute("src","media/figure/reaction_1.png");
+        rimg1.setAttribute("alt","icon");
+
+        var rimg2=document.createElement("img");
+        reactionicon.appendChild(rimg2);
+
+        rimg2.setAttribute("src","media/figure/reaction_2.png");
+        rimg2.setAttribute("alt","icon");
+
+        var metatext=document.createElement("div");
+        metatext.className="meta-text";
+        postreaction.appendChild(metatext);
+
+        var txt10 = document.createTextNode("0");
+        metatext.appendChild(txt10);
+
+        var postmeta2=document.createElement("div");
+        postmeta2.className="post-meta";
+        postmetawrap.appendChild(postmeta2);
+
+        var metatext1=document.createElement("div");
+        metatext1.className="meta-text";
+        postmeta2.appendChild(metatext1);
+
+        var txt11 = document.createTextNode("0人评论");
+        metatext1.appendChild(txt11);
+
+        var metatext2=document.createElement("div");
+        metatext2.className="meta-text";
+        postmeta2.appendChild(metatext2);
+
+        var txt12 = document.createTextNode("0人帮帮");
+        metatext2.appendChild(txt12);
+
+
+}
+
+    function getTime(){
+         // 1、获取当前的日期
+         var date = new Date();
+        var m = (date.getMonth()+1)>9?(date.getMonth()+1):"0"+(date.getMonth()+1);
+        var min = (date.getMinutes())>9?(date.getMinutes()):"0"+(date.getMinutes());
+        var se = (date.getSeconds())>9?(date.getSeconds()):"0"+(date.getSeconds);
+        var cl = date.getFullYear()+"年"+m+"月"+date.getDate()+"日\t"+date.getHours()+"时"+min+"分"+date.getSeconds()+"秒";
+        return cl;
+    }
+</script>
+    <!-- Site Scripts -->
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+
+<head>
+    <!-- Meta Data -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>问卷侠丨帮帮详情</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="media/黄icon.png">
+    <link rel="stylesheet" href="dependencies/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="dependencies/icofont/icofont.min.css">
+    <link rel="stylesheet" href="dependencies/slick-carousel/css/slick.css">
+    <link rel="stylesheet" href="dependencies/slick-carousel/css/slick-theme.css">
+    <link rel="stylesheet" href="dependencies/magnific-popup/css/magnific-popup.css">
+    <link rel="stylesheet" href="dependencies/sal.js/sal.css">
+    <link rel="stylesheet" href="dependencies/mcustomscrollbar/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="dependencies/select2/css/select2.min.css">
+
+    <!-- Site Stylesheet -->
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="assets/css/bbs.css">
+    <style type="text/css">
+    .sb-btn {
+        background-color:#9593f8;
+        border: 5px;
+        color: white;
+        padding: 3px 5px;
+        text-align: center;
+        text-decoration: none;
+        border-radius:15px;
+        display: inline-block;
+        font-size: 16px;}
+      </style>
+    <!-- Google Web Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;0,800;0,900;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="fixed-header">
+      <div class="header-menu">
+          <div class="navbar">
+              <div class="nav-item d-none d-sm-block">
+
+                      <a href="index.html"><img src="media/白字logo.png" style="width:200px;height:60px;" alt="Cirkle"></a>
+
+              </div>
+              <div class="nav-item nav-top-menu">
+                  <nav id="dropdown" class="template-main-menu">
+                      <ul class="menu-content">
+                          <li class="header-nav-item">
+                              <a href="aids.html" class="menu-link active">主页</a>
+                          </li>
+                          <li class="header-nav-item">
+                              <a href="classification.html" class="menu-link have-sub">帮帮圈</a>
+                              <ul class="mega-menu mega-menu-col-2">
+                                  <li>
+                                    <ul class="sub-menu">
+                                        <li>
+                                            <a href="communication.html">全部</a>
+                                        </li>
+                                        <li>
+                                            <a href="fashion.html">时装</a>
+                                        </li>
+                                        <li>
+                                            <a href="fashion.html">疫情</a>
+                                        </li>
+                                        <li>
+                                            <a href="fashion.html">体育</a>
+                                        </li>
+                                        <li>
+                                            <a href="fashion.html">思政</a>
+                                        </li>
+                                        <li>
+                                            <a href="fashion.html">卫生</a>
+                                        </li>
+                                        <li>
+                                            <a href="fashion.html">旅行</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                <ul class="sub-menu">
+                                <li>
+                                    <a href="fashion.html">婚恋</a>
+                                </li>
+                                <li>
+                                    <a href="fashion.html">家庭</a>
+                                </li>
+                                <li>
+                                    <a href="fashion.html">购物</a>
+                                </li>
+                                <li>
+                                    <a href="fashion.html">语言</a>
+                                </li>
+                                <li>
+                                    <a href="fashion.html">社会</a>
+                                </li>
+                                <li>
+                                    <a href="fashion.html">国际</a>
+                                </li>
+                                <li>
+                                    <a href="fashion.html">宠物</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                              </ul>
+                          </li>
+
+                      </ul>
+                  </nav>
+              </div>
+              <div class="nav-item header-control">
+                  <div class="inline-item d-none d-md-block">
+                      <div class="input-group">
+                          <input type="text" class="form-control" placeholder="Search here.......">
+                          <div class="input-group-append">
+                              <button class="submit-btn" type="button"><i class="icofont-search"></i></button>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="inline-item d-flex align-items-center">
+                      <div class="dropdown dropdown-cart">
+                          <button class="dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+                              <i class="icofont-shopping-cart"></i>
+                          </button>
+                          <div class="dropdown-menu dropdown-menu-right">
+                              <div class="item-heading">
+                                  <h6 class="heading-title">Shopping Cart: <span>3</span></h6>
+                              </div>
+                              <div class="item-body">
+                                  <div class="media">
+                                      <div class="item-img">
+                                          <img src="media/figure/cart_1.jpg" alt="Product">
+                                      </div>
+                                      <div class="media-body">
+                                          <h6 class="item-title"><a href="#">Black Coffee Mug</a></h6>
+                                          <div class="item-category">COFFEE MUGS</div>
+                                          <div class="item-price">$29 x 1</div>
+                                          <div class="btn-area">
+                                              <a href="#" class="close-btn"><i class="icofont-ui-close"></i></a>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="media">
+                                      <div class="item-img">
+                                          <img src="media/figure/cart_2.jpg" alt="Product">
+                                      </div>
+                                      <div class="media-body">
+                                          <h6 class="item-title"><a href="#">Head Phone</a></h6>
+                                          <div class="item-category">Assets</div>
+                                          <div class="item-price">$15 x 1</div>
+                                          <div class="btn-area">
+                                              <a href="#" class="close-btn"><i class="icofont-ui-close"></i></a>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="media">
+                                      <div class="item-img">
+                                          <img src="media/figure/cart_3.jpg" alt="Product">
+                                      </div>
+                                      <div class="media-body">
+                                          <h6 class="item-title"><a href="#">Black Watch</a></h6>
+                                          <div class="item-category">Watch</div>
+                                          <div class="item-price">$59 x 1</div>
+                                          <div class="btn-area">
+                                              <a href="#" class="close-btn"><i class="icofont-ui-close"></i></a>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="item-footer">
+                                  <a href="#" class="view-btn">View All Product</a>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="dropdown dropdown-friend">
+                          <button class="dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+                              <i class="icofont-users-alt-4"></i>
+                          </button>
+                          <div class="dropdown-menu dropdown-menu-right">
+                              <div class="item-heading">
+                                  <h6 class="heading-title">Friend Requests</h6>
+                                  <div class="heading-btn">
+                                      <a href="#">Settings</a>
+                                      <a href="#">Mark all as Read</a>
+                                  </div>
+                              </div>
+                              <div class="item-body">
+                                  <div class="media">
+                                      <div class="item-img">
+                                          <img src="media/figure/chat_5.jpg" alt="Notify">
+                                          <span class="chat-status offline"></span>
+                                      </div>
+                                      <div class="media-body">
+                                          <h6 class="item-title"><a href="#">Lily Zaman</a></h6>
+                                          <p>4 in mutual friends</p>
+                                          <div class="btn-area">
+                                              <a href="#" class="item-btn"><i class="icofont-plus"></i></a>
+                                              <a href="#" class="item-btn"><i class="icofont-minus"></i></a>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="media">
+                                      <div class="item-img">
+                                          <img src="media/figure/头像9.jpg"  style="width:44px;height:44px;" alt="Notify">
+                                          <span class="chat-status online"></span>
+                                      </div>
+                                      <div class="media-body">
+                                          <h6 class="item-title"><a href="#">Ketty Rose</a></h6>
+                                          <p>3 in mutual friends</p>
+                                          <div class="btn-area">
+                                              <a href="#" class="item-btn"><i class="icofont-plus"></i></a>
+                                              <a href="#" class="item-btn"><i class="icofont-minus"></i></a>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="media">
+                                      <div class="item-img">
+                                          <img src="media/figure/chat_8.jpg" alt="Notify">
+                                          <span class="chat-status online"></span>
+                                      </div>
+                                      <div class="media-body">
+                                          <h6 class="item-title"><a href="#">Rustom vai</a></h6>
+                                          <p>6 in mutual friends</p>
+                                          <div class="btn-area">
+                                              <a href="#" class="item-btn"><i class="icofont-plus"></i></a>
+                                              <a href="#" class="item-btn"><i class="icofont-minus"></i></a>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="item-footer">
+                                  <a href="#" class="view-btn">View All Friend Request</a>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="dropdown dropdown-message">
+                          <button class="dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+                              <i class="icofont-speech-comments"></i>
+                          </button>
+                          <div class="dropdown-menu dropdown-menu-right">
+                              <div class="item-heading">
+                                  <h6 class="heading-title">Message</h6>
+                                  <div class="heading-btn">
+                                      <a href="#">Settings</a>
+                                      <a href="#">Mark all as Read</a>
+                                  </div>
+                              </div>
+                              <div class="item-body">
+                                  <a href="#" class="media">
+                                      <div class="item-img">
+                                          <img src="media/figure/notifiy_1.png" alt="Notify">
+                                      </div>
+                                      <div class="media-body">
+                                          <h6 class="item-title">Diana Jameson</h6>
+                                          <div class="item-time">15 mins ago</div>
+                                          <p>when are nknowen printer took galley of types ...</p>
+                                      </div>
+                                  </a>
+                                  <a href="#" class="media">
+                                      <div class="item-img">
+                                          <img src="media/figure/notifiy_2.png" alt="Notify">
+                                      </div>
+                                      <div class="media-body">
+                                          <h6 class="item-title">Quirty</h6>
+                                          <div class="item-time">15 mins ago</div>
+                                          <p>when are nknowen printer took galley of types ...</p>
+                                      </div>
+                                  </a>
+                                  <a href="#" class="media">
+                                      <div class="item-img">
+                                          <img src="media/figure/notifiy_3.png" alt="Notify">
+                                      </div>
+                                      <div class="media-body">
+                                          <h6 class="item-title">Zinia Jessy</h6>
+                                          <div class="item-time">15 mins ago</div>
+                                          <p>when are nknowen printer took galley of types ...</p>
+                                      </div>
+                                  </a>
+                              </div>
+                              <div class="item-footer">
+                                  <a href="#" class="view-btn">View All Messages</a>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="dropdown dropdown-notification">
+                          <button class="dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+                              <i class="icofont-notification"></i><span class="notify-count">3</span>
+                          </button>
+                          <div class="dropdown-menu dropdown-menu-right">
+                              <div class="item-heading">
+                                  <h6 class="heading-title">Notifications</h6>
+                                  <div class="heading-btn">
+                                      <a href="#">Settings</a>
+                                      <a href="#">Mark all as Read</a>
+                                  </div>
+                              </div>
+                              <div class="item-body">
+                                  <a href="#" class="media">
+                                      <div class="item-img">
+                                          <img src="media/figure/notifiy_1.png" alt="Notify">
+                                      </div>
+                                      <div class="media-body">
+                                          <h6 class="item-title">Diana Jameson</h6>
+                                          <div class="item-time">15 mins ago</div>
+                                          <p>when are nknowen printer took galley of types ...</p>
+                                      </div>
+                                  </a>
+                                  <a href="#" class="media">
+                                      <div class="item-img">
+                                          <img src="media/figure/notifiy_2.png" alt="Notify">
+                                      </div>
+                                      <div class="media-body">
+                                          <h6 class="item-title">Quirty</h6>
+                                          <div class="item-time">15 mins ago</div>
+                                          <p>when are nknowen printer took galley of types ...</p>
+                                      </div>
+                                  </a>
+                                  <a href="#" class="media">
+                                      <div class="item-img">
+                                          <img src="media/figure/notifiy_3.png" alt="Notify">
+                                      </div>
+                                      <div class="media-body">
+                                          <h6 class="item-title">Zinia Jessy</h6>
+                                          <div class="item-time">15 mins ago</div>
+                                          <p>when are nknowen printer took galley of types ...</p>
+                                      </div>
+                                  </a>
+                              </div>
+                              <div class="item-footer">
+                                  <a href="#" class="view-btn">View All Notification</a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="inline-item">
+                      <div class="dropdown dropdown-admin">
+                          <button class="dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+                              <span class="media">
+                                  <span class="item-img">
+                                      <img src="media/figure/拇指.png" style="width:44px;height:44px;" alt="Chat">
+                                      <span class="acc-verified"><i class="icofont-check"></i></span>
+                                  </span>
+                                  <span class="media-body">
+                                      <span class="item-title">定福庄小白杨</span>
+                                  </span>
+                              </span>
+                          </button>
+                          <div class="dropdown-menu dropdown-menu-right">
+                              <ul class="admin-options">
+                                <li><a href="userzone.html">我的主页</a></li>
+                                <li><a href="bangbangzhi.html">我的帮帮值</a></li>
+                                <li><a href="login.html">退出登录</a></li>
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </header>
+<div class="block-box post-view">
+    <div class="post-header">
+        <div class="media">
+            <div class="user-img" style="text-align:center">
+                <img src="media/figure/profile.png" width="50" height="50" alt="Aahat">
+            </div>
+            <div class="media-body">
+                <div class="user-title"><a href="user-timeline.html">某大学生</a> <i class="icofont-check"></i> 发布在 <a href="#">问卷填写小组</a> </div>
+                <ul class="entry-meta">
+                    <li class="meta-privacy"><i class="icofont-world"></i> 公开</li>
+                    <li class="meta-time">两分钟前</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    <div class="post-body"  style="text-align:center">
+      <div class="post-footer">
+      </div>
+        <p>大家好，我们是来自中国传媒大学的学生~
+            <br>这里是关于北京大学生问卷使用与回收情况的调查，也是我们创意交互课程的期末作业之一。
+            <br>无奈的是，我们的问卷触达范围十分有限（可能大家也会有同感）
+            <br>所以我们特地来到问卷侠网站！希望在这里和大家实现问卷互助，诚信互填~
+            <br>"所有期末大学生，联合起来！”
+          <i class="icofont-wink-smile"></i>
+        </p>
+        <div class="post-img" style="text-align:center">
+            <img src="media/figure/invitation.jpg" class="d-inline-block align-center w-25" alt="Post">
+        </div>
+        <br>
+        <div class="sb-btn">
+        <a href="https://www.wjx.cn/vm/eu9jAob.aspx">
+        <button class="sb-btn">
+          一键帮帮
+        </button>
+        </a>
+        </div>
+        <div class="post-meta-wrap">
+            <div class="post-meta">
+                <div class="post-reaction">
+                    <div class="reaction-icon">
+                        <img src="media/figure/reaction_1.png" alt="icon">
+                        <img src="media/figure/reaction_2.png" alt="icon">
+                    </div>
+                    <div class="meta-text">15</div>
+                </div>
+            </div>
+            <div class="post-meta">
+                <div class="meta-text">2 评论</div>
+                <div class="meta-text">5 分享</div>
+            </div>
+        </div>
+    </div>
+    <div class="post-footer" style="text-align:center">
+        <ul>
+            <li class="post-react">
+                <a href="#"><i class="icofont-thumbs-up"></i>赞赞</a>
+                <ul class="react-list">
+                    <li><a href="#"><img src="media/figure/reaction_1.png" alt="Like"></a></li>
+                    <li><a href="#"><img src="media/figure/reaction_2.png" alt="Like"></a></li>
+                    <li><a href="#"><img src="media/figure/reaction_4.png" alt="Like"></a></li>
+                    <li><a href="#"><img src="media/figure/reaction_2.png" alt="Like"></a></li>
+                    <li><a href="#"><img src="media/figure/reaction_7.png" alt="Like"></a></li>
+                    <li><a href="#"><img src="media/figure/reaction_6.png" alt="Like"></a></li>
+                    <li><a href="#"><img src="media/figure/reaction_5.png" alt="Like"></a></li>
+                </ul>
+            </li>
+            <li><a href="#"><i class="icofont-comment"></i>评论</a></li>
+            <li class="post-share">
+                <a href="javascript:void(0);" class="share-btn"><i class="icofont-share"></i>分享</a>
+                <ul class="share-list">
+                    <li><a href="#" class="color-fb"><i class="icofont-facebook"></i></a></li>
+                    <li><a href="#" class="color-messenger"><i class="icofont-facebook-messenger"></i></a></li>
+                    <li><a href="#" class="color-instagram"><i class="icofont-instagram"></i></a></li>
+                    <li><a href="#" class="color-whatsapp"><i class="icofont-brand-whatsapp"></i></a></li>
+                    <li><a href="#" class="color-twitter"><i class="icofont-twitter"></i></a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="main-footer">
+    <div class="container">
+        <div class="row row-cols-lg-4 row-cols-sm-2 row-cols-1">
+            <div class="col">
+                <div class="footer-box">
+                    <div class="footer-logo">
+                        <a href="index.html"><img src="media/黄字logo.png" alt="Logo"></a>
+                    </div>
+                    <p>一帮还一帮！</p>
+                </div>
+            </div>
+            <div class="col d-flex justify-content-lg-center">
+                <div class="footer-box">
+                    <h3 class="footer-title">
+                        网站作者
+                    </h3>
+                    <div class="footer-link">
+                        <ul>
+                            <li>中国传媒大学广告学院</l>
+                            <li>唐&emsp;堃   &emsp;王祉迪   &emsp;周思成</l>
+                            <li>刘&emsp;昊   &emsp;马若岚   &emsp;伍梓凡</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col d-flex justify-content-lg-center">
+                <div class="footer-box">
+                    <h3 class="footer-title">
+                        联系我们
+                    </h3>
+                    <div class="footer-link">
+                        <ul>
+                          <li>地址：北京市朝阳区定福庄东街1号</l>
+                          <li>电话：010-12345678</li>
+                          <li>邮箱：wenjuanxia@cuc.com</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col d-flex justify-content-lg-center">
+                <div class="footer-box">
+                    <h3 class="footer-title">
+                        关注我们
+                    </h3>
+                    <div class="footer-link">
+                        <ul>
+                          <li>官方微博：@问卷侠</l>
+                          <li>官方公众号：问卷侠</li>
+                          <li>官方抖音：@问卷侠</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+</body>
